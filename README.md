@@ -1,3 +1,3 @@
 # R-LAB
 R Programming
-- asics
+- Basics
