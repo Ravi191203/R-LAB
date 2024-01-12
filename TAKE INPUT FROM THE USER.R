@@ -1,0 +1,12 @@
+#TAKE INPUT FROM THE USER
+myname <- readline(prompt = "Enter the name :")
+myage <- readline(prompt = "Enter Your age : ")
+myage <- as.integer(myage)
+myclass <- readline(prompt = "Enter Your class : ")
+myaddress <- readline(prompt = "Enter your address : ")
+phone <- readline(prompt = "Enter your phone number : ")
+phone <- as.integer(phone)
+course <- readline(prompt = "Enter Your course : ")
+cat("Hi", myname, "next year you will be", myage + 2, "old..\n")
+cat(myname, "is your address and your phone number is\n", phone)
+cat("Your studying in ", myclass, "\ncourse :-", course)
